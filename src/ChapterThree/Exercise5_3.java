@@ -10,7 +10,7 @@ public class Exercise5_3 {
                     break;
             }
             if (i > j/2) {
-                System.out.println(j);
+                System.out.print(" " + j);
             }
         }
 

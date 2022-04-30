@@ -18,8 +18,8 @@ public class Exercise5_6 {
         }
         int r = m % n;
         while (r != 0) {
-            n = m;
-            m = r;
+            m = n;
+            n = r;
             r = m % n;
         }
 
